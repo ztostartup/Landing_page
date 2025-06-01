@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZTO Start Up LLC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card-content h3 {
+      margin: 0 0 0.5rem;
+      color: #1f2937;
+    }
+    .card-content p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .pricing, .contact {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .pricing h2, .contact h2 {
+      text-align: center;
+      color: #1f2937;
+    }
+    .pricing-table {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 2rem;
+    }
+    .price-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 1.5rem;
+      margin: 1rem;
+      width: 250px;
+      text-align: center;
+    }
+    .price-card h3 {
+      margin: 0.5rem 0;
+    }
+    .price-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .price {
+      font-size: 1.5rem;
+      color: #1f2937;
+      font-weight: 600;
+      margin: 1rem 0;
+    }
+    .contact iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1f2937;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZTO Start Up LLC</h1>
+    <p>Affordable Automation & Web Presence for Small Business</p>
+  </header>
+
+  <section class="services">
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?automation,technology" alt="Automation Services" />
+      <div class="card-content">
+        <h3>Workflow Automation</h3>
+        <p>Streamline your business with automated tools using platforms like n8n, Zapier, and custom Python bots.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?website,design" alt="Website Development" />
+      <div class="card-content">
+        <h3>Web Presence Development</h3>
+        <p>Build sleek and responsive websites tailored to showcase your services and attract new clients.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?data,analytics" alt="Data Enrichment" />
+      <div class="card-content">
+        <h3>Business Data Analysis</h3>
+        <p>Gather and analyze business data to uncover market insights and optimize decision-making.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?marketing,ai" alt="AI Marketing" />
+      <div class="card-content">
+        <h3>AI-Powered Marketing</h3>
+        <p>Boost your online presence with AI tools that create content, branding, and customer outreach strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <h2>Our Pricing</h2>
+    <div class="pricing-table">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <p>Perfect for solo entrepreneurs</p>
+        <div class="price">$199</div>
+        <p>Basic website setup<br>1 automation flow<br>Email support</p>
+      </div>
+      <div class="price-card">
+        <h3>Growth</h3>
+        <p>Designed for growing small businesses</p>
+        <div class="price">$499</div>
+        <p>Custom website<br>3 automation flows<br>Priority support</p>
+      </div>
+      <div class="price-card">
+        <h3>Pro</h3>
+        <p>For scaling operations with confidence</p>
+        <div class="price">$999</div>
+        <p>Full website + blog<br>5+ automations<br>Strategy call & ongoing updates</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFakeGoogleFormURL/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ZTO Start Up LLC – All Rights Reserved</p>
+  </footer>
+</body>
+</html>
